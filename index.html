@@ -72,7 +72,7 @@
 
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
-          <tr>
+          <tr onmouseout="staff_stop()" onmouseover="staff_start()">
             <td style="padding:20px;width:75%;vertical-align:middle">
               <a href="https://www.politico.com/interactives/2021/biden-staffing-hiring-trump-turnover/"><papertitle>Biden races to hire senior staff at drained agencies</papertitle></a>
               <br>
@@ -84,12 +84,27 @@
                 </p>
             </td>
             <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="two" id='cover'>
                   <img src='images/biden.png' width="250"></div>
-              <br>
+              <div class="one" id='viz'>
+                  <img src='images/line.jpg' width="300">
+              </div>              <br>
+              <script type="text/javascript">
+              function staff_start() {
+                document.getElementById('viz').style.opacity = "1";
+                document.getElementById('cover').style.opacity = "0";
+              }
+
+              function staff_stop() {
+                document.getElementById('viz').style.opacity = "0";
+                document.getElementById('cover').style.opacity = "1";
+              }
+              staff_stop()
+            </script>
             </td>
           </tr>
 
-          <tr>
+          <tr onmouseout="inf_stop()" onmouseover="inf_start()">
             <td style="padding:20px;width:75%;vertical-align:middle">
               <a href="https://www.politico.com/interactives/2021/inflation-spike-used-cars-gas/"><papertitle>Inflation is up. Should you care?</papertitle></a>
               <br>
@@ -100,12 +115,28 @@
                 Higher inflation is riling up consumers and their lawmakers, but many economists say price increases will moderate soon. To investigate, we decomposed July’s inflation rate into its components.
             </td>
             <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="two" id='cover1'>
                   <img src='images/inflation.png' width="250"></div>
+              <div class="one" id='viz1'>
+                  <img src='images/tree.png' width="250">
+              </div>
               <br>
+              <script type="text/javascript">
+              function inf_start() {
+                document.getElementById('viz1').style.opacity = "1";
+                document.getElementById('cover1').style.opacity = "0";
+              }
+
+              function inf_stop() {
+                document.getElementById('viz1').style.opacity = "0";
+                document.getElementById('cover1').style.opacity = "1";
+              }
+              inf_stop()
+            </script>
             </td>
           </tr>
 
-          <tr>
+          <tr onmouseout="dc_stop()" onmouseover="dc_start()">
             <td style="padding:20px;width:75%;vertical-align:middle">
               <a href="http://projects.dailycal.org/2020/uc-berkeley-students-after-grad/"><papertitle>Where do UC Berkeley students go?</papertitle></a>
               <br>
@@ -118,8 +149,24 @@
                 </p>
             </td>
             <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="two" id='cover2'>
                   <img src='images/graduation.jpg' width="250"></div>
+              <div class="one" id='viz2'>
+                  <img src='images/sankey.png' width="250">
+              </div>
               <br>
+              <script type="text/javascript">
+              function dc_start() {
+                document.getElementById('viz2').style.opacity = "1";
+                document.getElementById('cover2').style.opacity = "0";
+              }
+
+              function dc_stop() {
+                document.getElementById('viz2').style.opacity = "0";
+                document.getElementById('cover2').style.opacity = "1";
+              }
+              dc_stop()
+            </script>
             </td>
           </tr>
           <!--
