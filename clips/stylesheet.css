@@ -134,11 +134,11 @@ span.highlight {
   background-color: #ffffd0;
 }
 
-.intro {
-  text-align: left;
-  margin: 0px 120px;
+.clip {
+  padding: 8px;
 }
 
-.intralink {
-  font-size: 15.5px;
+tspan {
+  font-weight: bold;
+  padding-bottom: 40px;
 }
