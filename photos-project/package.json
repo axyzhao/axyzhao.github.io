@@ -11,8 +11,8 @@
     "classnames": "^2.3.1",
     "d3": "^7.4.4",
     "gh-pages": "^3.2.3",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
     "react-hook-form": "^7.20.5",
     "react-scripts": "4.0.0",
     "react-scrollama": "^2.3.0",
@@ -26,7 +26,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "yarn run build",
-    "deploy": "gh-pages -b master -d build"
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
