@@ -8,6 +8,7 @@ import five from './Images/5.jpg';
 import six from './Images/6.jpg';
 import seven from './Images/7.jpg';
 import eight from './Images/8.jpg';
+import './App.css';
 
 function App() {
   return (

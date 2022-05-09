@@ -1,24 +1,17 @@
 {
-  "name": "blog-frontend",
+  "name": "photos-project",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://alzhao.com/photos-project",
+  "homepage": "https:/alzhao.com/photos-project",
   "dependencies": {
-    "@reach/router": "^1.3.4",
-    "@testing-library/jest-dom": "^5.11.4",
-    "@testing-library/react": "^11.1.0",
-    "@testing-library/user-event": "^12.1.10",
-    "classnames": "^2.3.1",
-    "d3": "^7.4.4",
-    "gh-pages": "^3.2.3",
-    "react": "17.0.2",
-    "react-dom": "17.0.2",
-    "react-hook-form": "^7.20.5",
-    "react-scripts": "4.0.0",
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^13.2.0",
+    "@testing-library/user-event": "^13.5.0",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "react-scripts": "5.0.1",
     "react-scrollama": "^2.3.0",
-    "scrollama": "^3.1.1",
-    "styled-jsx": "^5.0.2",
-    "web-vitals": "^0.2.4"
+    "web-vitals": "^2.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -47,6 +40,6 @@
     ]
   },
   "devDependencies": {
-    "sass": "^1.51.0"
+    "gh-pages": "^3.2.3"
   }
 }
