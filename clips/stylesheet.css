@@ -102,13 +102,6 @@ papertitle {
 
 description {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 12px;
-  font-weight: 500;
-  color: gray;
-}
-
-description {
-  font-family: 'Lato', Verdana, Helvetica, sans-serif;
   font-size: 14px;
   font-weight: 500;
   color: gray;
@@ -149,10 +142,11 @@ span.highlight {
 }
 
 .clip {
-  padding: 8px;
+  padding: 16px;
 }
 
 tspan {
   font-weight: bold;
-  padding-bottom: 40px;
+  font-size: 16px;
+  padding-bottom: 30px;
 }
