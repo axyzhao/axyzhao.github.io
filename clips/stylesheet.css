@@ -100,6 +100,20 @@ papertitle {
   font-weight: 700
 }
 
+description {
+  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  color: gray;
+}
+
+description {
+  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  color: gray;
+}
+
 name {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
   font-size: 32px;
