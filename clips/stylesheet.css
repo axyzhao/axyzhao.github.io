@@ -91,12 +91,12 @@ strong {
 
 heading {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 22px;
+  font-size: 24px;
 }
 
 papertitle {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 14px;
+  font-size: 18px;
   font-weight: 700
 }
 
@@ -109,7 +109,7 @@ description {
 
 name {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 32px;
+  font-size: 36px;
 }
 
 i {
@@ -149,4 +149,8 @@ tspan {
   font-weight: bold;
   font-size: 16px;
   padding-bottom: 30px;
+}
+
+date {
+  font-size: 16px;
 }
